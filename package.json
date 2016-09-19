@@ -2,13 +2,15 @@
   "name": "odyssey-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Raymond Cox",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "ws": "^1.1.0",
     "express": "^4.13.4"
   }
 }
